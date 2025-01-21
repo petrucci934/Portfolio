@@ -1,8 +1,8 @@
-import { FaSearchengin } from 'react-icons/fa'
+// import { FaSearchengin } from 'react-icons/fa'
 import { FaArrowRightLong } from 'react-icons/fa6'
-import { FaQuoteRight,FaQuoteLeft } from 'react-icons/fa'
+// import { FaQuoteRight,FaQuoteLeft } from 'react-icons/fa'
 import { MdOutlineDesignServices } from 'react-icons/md'
-import { IoLogoAndroid } from 'react-icons/io'
+// import { IoLogoAndroid } from 'react-icons/io'
 import { motion } from 'framer-motion'
 
 const Services = () => {
