@@ -42,15 +42,10 @@ const Hero = () => {
       whileInView={{opacity:1, scale:1}}
       transition={{type:"spring", stiffness:20,delay:0.6}}
       className='lg:w-2/5 w-full relative'>
-        <div className='bg-[#2f2f2f] lg:w-[400px] w-full lg:h-[500px] h-[400px] rounded-lg  top-[30px] -left-[30px] absolute '
-        >
-            <img 
-             
-            src={hero} 
-            alt="Photo"
-            className='lg:w-[520px] w-full lg:h-[500px] h-[450px] rounded-lg z-20 relative'/>
-            <img src={design} alt="desing" className='absolute -top-7 -right-7 rounded-lg z-10 ' />
-        </div>
+        <div className='bg-[#2f2f2f] lg:w-[400px] w-full lg:h-[500px] h-[400px] rounded-lg  top-[30px] -left-[30px] absolute ' ></div>
+            <img src={hero} alt="hero image" className=' relative lg:w-[520px]  w-full lg:h-[500px] h-[450px] rounded-lg z-20 '/>
+            <img src={design} alt="desing" className='absolute -top-7 -right-5 rounded-lg z-10  ' />
+        
       </motion.div>         
     </div>
   )
