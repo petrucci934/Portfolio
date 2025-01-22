@@ -30,6 +30,7 @@ const Hero = () => {
         </motion.p>
 
         <motion.button 
+         onClick={() => alert('feature')}
          initial={{opacity: 1 , scale:0}}
          whileInView={{opacity:1, scale:1}}
          transition={{type:"spring", stiffness:20,delay:0.6}}
@@ -43,7 +44,7 @@ const Hero = () => {
       transition={{type:"spring", stiffness:20,delay:0.6}}
       className='lg:w-2/5 w-full relative'>
         <div 
-        className='  bg-[#2f2f2f] lg:w-[400px] w-full h--full lg:h-[500px] h-[400px] rounded-lg  top-[30px] -left-[30px] absolute ' ></div>
+        className='  bg-[#2f2f2f] lg:w-[500px] w-full h--full lg:h-[500px] h-[400px] rounded-lg  top-[30px] -left-[30px] absolute ' ></div>
             <img 
             src={hero} 
             alt="hero image" 
@@ -51,7 +52,7 @@ const Hero = () => {
             <img 
             src={design} 
             alt="desing" 
-            className='absolute -top-7 -right-5 rounded-lg z-10  ' />        
+            className='absolute -top-7 -right-5 rounded-lg z-10' />        
       </motion.div>         
     </div>
   )

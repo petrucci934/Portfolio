@@ -44,7 +44,9 @@ const Services = () => {
           <div className='flex flex-col justify-center items-start gap-3'>
             <h1 className='text-white font-semibold text-[26px]'>Branding</h1>
             <p className='text-gray-300 text-[17px] font-poppins'>Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.</p>
-           <button className='text-themeRed hover:text-white text-[17px] font-poppins flex justify-center items-center gap-2'>See Details <span><FaArrowRightLong/></span></button>
+           <button 
+           onClick={() => alert('feature')}
+           className='text-themeRed hover:text-white text-[17px] font-poppins flex justify-center items-center gap-2'>See Details <span><FaArrowRightLong/></span></button>
           </div>
         </motion.div> 
 
@@ -61,7 +63,9 @@ const Services = () => {
           <div className='flex flex-col justify-center items-start gap-3'>
             <h1 className='text-white font-semibold text-[26px]'>Ui/UX design</h1>
             <p className='text-gray-300 text-[17px] font-poppins'>Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.</p>
-           <button className='text-themeRed hover:text-white text-[17px] font-poppins flex justify-center items-center gap-2'>See Details <span><FaArrowRightLong/></span></button>
+           <button 
+           onClick={() => alert('feature')}
+           className='text-themeRed hover:text-white text-[17px] font-poppins flex justify-center items-center gap-2'>See Details <span><FaArrowRightLong/></span></button>
           </div>
         </motion.div>
         <motion.div 
@@ -77,7 +81,9 @@ const Services = () => {
           <div className='flex flex-col justify-center items-start gap-3'>
             <h1 className='text-white font-semibold text-[26px]'>Branding</h1>
             <p className='text-gray-300 text-[17px] font-poppins'>Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.</p>
-           <button className='text-themeRed hover:text-white text-[17px] font-poppins flex justify-center items-center gap-2'>See Details <span><FaArrowRightLong/></span></button>
+           <button 
+           onClick={() => alert('feature')}
+           className='text-themeRed hover:text-white text-[17px] font-poppins flex justify-center items-center gap-2'>See Details <span><FaArrowRightLong/></span></button>
           </div>
         </motion.div> 
 
@@ -94,7 +100,9 @@ const Services = () => {
           <div className='flex flex-col justify-center items-start gap-3'>
             <h1 className='text-white font-semibold text-[26px]'>Branding</h1>
             <p className='text-gray-300 text-[17px] font-poppins'>Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.</p>
-           <button className='text-themeRed hover:text-white text-[17px] font-poppins flex justify-center items-center gap-2'>See Details <span><FaArrowRightLong/></span></button>
+           <button 
+           onClick={() => alert('feature')}
+           className='text-themeRed hover:text-white text-[17px] font-poppins flex justify-center items-center gap-2'>See Details <span><FaArrowRightLong/></span></button>
           </div>
         </motion.div> 
       </div>      
