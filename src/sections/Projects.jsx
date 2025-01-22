@@ -2,7 +2,6 @@ import { motion } from "framer-motion"
 import { FaArrowRightLong } from "react-icons/fa6"
 import project1 from '../assets/project1.jpg'
 import project2 from '../assets/project2.jpg'
-import { h1 } from "framer-motion/client"
 
 const Projects = () => {
   return (
@@ -55,10 +54,10 @@ const Projects = () => {
            transition={{type:"spring", stiffness:20,delay:1.2}} 
            className='lg:w-[60%]  w-full relative'>
             <div 
-              className=' bg-[#2f2f2f] lg:w-[400px] w-full  lg:h-[355px] sm:w-[200px] aspect-[5/4] sm:h-[130px] h-[400px] rounded-lg  top-[30px] -left-[30px] absolute'>
-
+              className=" bg-[#2f2f2f] lg:w-[530px] w-full  lg:h-[355px] h-[420px] rounded-lg  top-[20px] -left-[20px] absolute"
+>
             </div>
-            <img src={project1} alt="Notebook image" className="relative z-20 rounded-lg"/>
+            <img src={project1} alt="Notebook image" className="relative z-20 rounded-lg "/>
           </motion.div>
       </div>
       <div className='w-full flex lg:flex-row-reverse flex-col justify-between items-center gap-20 mt-20'>
@@ -91,11 +90,11 @@ const Projects = () => {
            transition={{type:"spring", stiffness:20,delay:1.2}} 
            className='lg:w-[60%]  w-full relative'>
             <div 
-               className=" bg-[#2f2f2f] lg:w-[400px] w-full  lg:h-[355px] h-[400px] rounded-lg  top-[30px] -left-[30px] absolute"
+               className=" bg-[#2f2f2f] lg:w-[530px] w-full  lg:h-[355px] h-[420px] rounded-lg  top-[20px] -left-[20px] absolute"
 >
 
             </div>
-            <img src={project2} alt="Notebook image" className="relative z-20 rounded-lg"/>
+            <img src={project2} alt="Notebook image" className="relative z-20 rounded-lg "/>
           </motion.div>
       </div>
     </div>
